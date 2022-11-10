@@ -1,0 +1,53 @@
+.mainBg {
+    background-color: #121212;
+    color: #fff;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    font-family: "Trebuchet MS";
+}
+
+.noMargin {
+    margin-top: 0;
+    margin-bottom: 5;
+}
+
+.input {
+    font-size:24px;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0.08);
+    margin-bottom: 20;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    font-weight: bold;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.button {
+    border-radius: 10px;
+    border-color: #bf360c;
+    background-color: #bf360c;
+    color: #fff;
+    font-size: 24;
+    font-weight: bold;
+}
+
+.tableCells {
+    background-color: white; 
+    color: black; 
+    font-size: 60; 
+    text-align: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    word-wrap:break-word;
+    display:inline-block;
+}
+
