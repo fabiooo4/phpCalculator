@@ -6,11 +6,11 @@
   </head>
     
   <body class="mainBg">
-    <h1 class="fontSize">Cronologia</h1>
+    <h1 class="title">Cronologia</h1>
       <div class="center">
         <div>
           <!-- Result -->
-          <p class="result">
+          <p>
             <?php
               // print history from file "results.txt"
               $file = fopen("results.txt", "r");
@@ -24,7 +24,7 @@
         </div>
         <div>
           <form action="calculator.php" method="post">
-            <button type="submit" name="back" value="back">Indietro</button>
+            <button class="buttonSecondary" type="submit" name="back" value="back">Indietro</button>
           </form>
         </div>
       </div>

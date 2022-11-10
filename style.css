@@ -39,15 +39,27 @@
     font-weight: bold;
 }
 
-.tableCells {
-    background-color: white; 
-    color: black; 
-    font-size: 60; 
-    text-align: center;
-    justify-content: center;
-    width: 5rem;
-    height: 5rem;
-    word-wrap:break-word;
-    display:inline-block;
+.buttonSecondary {
+    border-radius: 10px;
+    border-color: #000000;
+    background-color: #2e2e2e;
+    color: #fff;
+    font-size: 24;
+    font-weight: bold;
 }
 
+.title {
+    font-size: 48;
+    font-weight: bold;
+    margin-bottom: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.result { 
+    color: white; 
+    font-size: 60; 
+    font-weight: bold;
+}

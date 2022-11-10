@@ -6,7 +6,7 @@
   </head>
     
       <body class="mainBg">
-        <h1 class="fontSize">Calcolatrice</h1>
+        <h1 class="title">Calcolatrice</h1>
             <div class="center">
               <div>
                 <!-- Calculator -->
@@ -77,7 +77,7 @@
               <div>
                 <!-- History -->
                 <form action="history.php" method="post">
-                  <button class="button" type="submit" name="history" value="history">Cronologia</button>
+                  <button class="buttonSecondary" type="submit" name="history" value="history">Cronologia</button>
                 </form>
               </div>
               
